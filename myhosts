@@ -5,7 +5,7 @@
 
 [mywebservers:vars]
 myvariable= value
-mywebpackonubuntu= nginx
+mywebpackonubuntu= apache2
 mywebpackonredhat= httpd
 
 

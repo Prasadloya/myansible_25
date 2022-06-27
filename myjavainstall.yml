@@ -1,0 +1,9 @@
+---
+- hoststs: mywebservers
+  become: yes
+  tasks:
+  - name: i want to install java on my node serevr ubuntu
+    apt:
+     name:
+     state: present
+  when: ansible_os_family =="Debian"

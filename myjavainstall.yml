@@ -1,5 +1,5 @@
 ---
-- hoststs: mywebservers
+- hosts: mywebservers
   become: yes
   tasks:
   - name: i want to install java on my node serevr ubuntu

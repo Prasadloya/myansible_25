@@ -14,9 +14,9 @@
      name: tree
      state: present 
 
-     
 
-  - name: i want to install wgit
+
+  - name: i want to install wget
     apt:
-     name: wgit
+     name: wget
      state: present 

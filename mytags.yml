@@ -5,7 +5,8 @@
   - name: i want to install git 
     apt:
      name: git
-     state: present 
+     state: present
+    tags: mygit
 
 
 
@@ -13,6 +14,7 @@
     apt:
      name: tree
      state: present 
+    tags: mytree
 
 
 
@@ -20,3 +22,4 @@
     apt:
      name: wget
      state: present 
+    tags: myget

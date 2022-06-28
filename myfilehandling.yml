@@ -14,3 +14,8 @@
      apt:
       name: apache2
       state: present  
+
+   - name: i want to copy the dynamic file 
+     template:
+       src:
+       dest: /var/www/html/index.html

@@ -19,7 +19,7 @@
      template:
        src: myindexfile.j2
        dest: /var/www/html/index.html
-     notify: iwanttorestartmywebserver
+     notify: restartwebserver
 
    - name: i want download remote file
      get_url:
@@ -28,7 +28,7 @@
        force_basic_auth: yes
 
      handlers:
-     - name: iwanttorestartmywebserver
+     - name: restartwebserver
        service:
         name: apache2
         state: restarted

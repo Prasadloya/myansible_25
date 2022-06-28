@@ -8,4 +8,4 @@
 
   - name: i want to see the result 
     debug:
-      meg: "{{mytaskresult}}"
+      msg: "{{mytaskresult}}"

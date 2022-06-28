@@ -27,7 +27,7 @@
        dest: /home/ubuntu/bd791441603b8beaf14cd9e119133303-Simple-resume-template.pdf
        force_basic_auth: yes
 
-     handler:
+     handlers:
      - name: iwanttorestartmywebserver
        service:
         name: apache2

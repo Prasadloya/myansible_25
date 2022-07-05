@@ -15,3 +15,4 @@
 - name: extract the tar file
   command:
     cmd: sudo tar xzvf /home/ubuntu/apache-tomcat-10.0.22.tar.gz -C /opt/tomcat --strip-components=1
+    creates: /opt/tomcat/NOTICE
